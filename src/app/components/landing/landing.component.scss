@@ -1,0 +1,16 @@
+:host {
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        padding: 0 6rem;
+        background-color: #e7e7e7;
+
+        .nav-links {
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            gap: 2rem;
+        }
+    }
+}
